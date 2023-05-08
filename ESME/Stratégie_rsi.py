@@ -11,14 +11,17 @@ from datetime import datetime
 import winsound
 import time
 start_time = time.time()  # Enregistre l'heure de début
-SMA = 'SMA'
-EMA = 'EMA'
 
 
 "CAC 40 (^FCHI)"
 "CMC Crypto 200 Index by Solacti (^CMC200)"
+"S&P 500 (^GSPC)"
+"Bitcoin EUR (BTC-EUR)"
+"Ethereum EUR (ETH-EUR)"
+"BNB EUR (BNB-EUR)"
+
 #Paramètres fixes:---------------------------------------------------
-action = '^FCHI'
+action = 'BTC-EUR'
 periode = '1d'
 start_date = datetime.strptime('2021-09-18', '%Y-%m-%d')
 initial_capital = 1000
